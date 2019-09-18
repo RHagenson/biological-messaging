@@ -1,14 +1,14 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Ryan A. Hagenson
 date-meta: '2019-09-18'
 keywords:
-- markdown
-- publishing
-- manubot
+- messages
+- actors
+- asynchronous
+- communication
 lang: en-US
-title: Manuscript Title
+title: Biological Message Passing
 ...
 
 
@@ -18,9 +18,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://RHagenson.github.io/biological-messaging/v/0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251/))
+([permalink](https://RHagenson.github.io/biological-messaging/v/7a82a1af4633be4c7df6222fb3398a0494a19322/))
 was automatically generated
-from [RHagenson/biological-messaging@0dc5ea8](https://github.com/RHagenson/biological-messaging/tree/0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251)
+from [RHagenson/biological-messaging@7a82a1a](https://github.com/RHagenson/biological-messaging/tree/7a82a1af4633be4c7df6222fb3398a0494a19322)
 on September 18, 2019.
 </em></small>
 
@@ -28,25 +28,15 @@ on September 18, 2019.
 
 
 
-+ **John Doe**<br>
++ **Ryan A. Hagenson**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-9750-1925](https://orcid.org/0000-0001-9750-1925)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [RHagenson](https://github.com/RHagenson)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [RAHagenson](https://twitter.com/RAHagenson)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Conservation Genetics, Omaha's Henry Doorly Zoo and Aquarium
   </small>
 
 
@@ -56,295 +46,18 @@ on September 18, 2019.
 
 
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
-
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
-
-## Basic formatting
-
-**Bold** __text__
-
-[Semi-bold text]{.semibold}
-
-[Centered text]{.center}
-
-[Right-aligned text]{.right}
-
-*Italic* _text_
-
-Combined *italics and __bold__*
-
-~~Strikethrough~~
-
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
-
-- List item
-- List item
-- List item
-
-superscript<sup>2</sup>
-
-subscript<sub>2n+1</sub>
-
-[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
-
-[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
-
-A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
-Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
-
-Line break without starting a new paragraph by putting  
-two spaces at end of line.
-
-## Document organization
-
-Document section headings:
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-### A heading centered on its own printed page{.center .page_center}
-
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-
-Horizontal rule:
-
----
-
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
-
-`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
-
-`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
-
-## Links
-
-Bare URL link: <https://manubot.org>
-
-[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
-
-[Link with text](https://manubot.org)
-
-[Link with hover text](https://manubot.org "Manubot Homepage")
-
-[Link by reference][manubot homepage]
-
-[Manubot Homepage]: https://manubot.org
-
-## Citations
-
-Citation by DOI [@IhliSZDo].
-
-Citation by PubMed Central ID [@PyydLU5l].
-
-Citation by PubMed ID [@7XVI5bB4].
-
-Citation by Wikidata ID [@QhC8yJ7V].
-
-Citation by ISBN [@zBPP9YKu].
-
-Citation by URL [@1GGGHdsew].
-
-Citation by tag [@PZMP42Ak].
-
-Multiple citations can be put inside the same set of brackets [@IhliSZDo; @PZMP42Ak; @zBPP9YKu].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@YuJbg3zO; @7XVI5bB4; @PyydLU5l; @PZMP42Ak].
-
-## Referencing figures, tables, equations
-
-Figure @fig:square-image
-
-Figure @fig:wide-image
-
-Figure @fig:tall-image
-
-Figure @fig:vector-image
-
-Table @tbl:bowling-scores
-
-Equation @eq:regular-equation
-
-Equation @eq:long-equation
-
-## Quotes and code
-
-> Quoted text
-
-
-> Quoted block of text
->
-> Two roads diverged in a wood, and I—  
-> I took the one less traveled by,  
-> And that has made all the difference.
-
-
-Code `in the middle` of normal text, aka `inline code`.
-
-Code block with Python syntax highlighting:
-
-```python
-from manubot.cite.doi import expand_short_doi
-
-def test_expand_short_doi():
-    doi = expand_short_doi("10/c3bp")
-    # a string too long to fit within page:
-    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
-```
-
-Code block with no syntax highlighting:
-
-```
-Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript
-```
-
-## Figures
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
-
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-](https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-## Tables
-
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-Table: A table with a top caption and specified relative column widths.
-{#tbl:bowling-scores}
-
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
-
-Table: A table too wide to fit within page.
-{#tbl:constant-digits}
-
-|          | **Colors** <!-- $colspan="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
-
-## Equations
-
-A LaTeX equation:
-
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
-
-An equation too long to fit within page:
-
-$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
-
-## Special
-
-<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
-_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
-
-[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
-
-Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
-
-::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-:::
-
-Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
-
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" -->
-
-Available background colors for text, images, code, banners, etc:  
-
-`white`{.white}
-`lightgrey`{.lightgrey}
-`grey`{.grey}
-`darkgrey`{.darkgrey}
-`black`{.black}
-`lightred`{.lightred}
-`lightyellow`{.lightyellow}
-`lightgreen`{.lightgreen}
-`lightblue`{.lightblue}
-`lightpurple`{.lightpurple}
-`red`{.red}
-`orange`{.orange}
-`yellow`{.yellow}
-`green`{.green}
-`blue`{.blue}
-`purple`{.purple}
-
-Using the [Font Awesome](https://fontawesome.com/) icon set:
-
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
-<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
-
-[
-<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
-useful for *general information* - [manubot.org](https://manubot.org/)
-]{.banner .lightgrey}
-
-[
-<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
-useful for *important information* - [manubot.org](https://manubot.org/)
-]{.banner .lightblue}
-
-[
-<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
-useful for *warnings* - [manubot.org](https://manubot.org/)
-]{.banner .lightred}
+## Introduction
+
+Biological systems are driven by the passing of messages.
+Biological messages can be classified along external/internal and chemical/physical axes.
+External physical messages include audible roars and chirps, external chemical signaling include smell signaling, internal physical messages include touch signaling in cells, and internal chemical signaling include all of the endocrine system.
+The complexity of these messages, their delivery, interpretation, and proliferation are such that entire disciplines of research are dedicated to uncovering their mysteries.
+Computers have no such message-passing coordination restriction and are able to (often erroneously) coordinate via shared memory through the use of mutexes, semaphores, and/or monitors.
+Unfortunately, the familiarity of sharing memory has led to its misuse in managing complex concurrency.
+Herein I present the fundamental messages required by the "perfect species" as discussed previously in @PFWbZHfp.
+
+In brief, the perfect species discussed in @PFWbZHfp is a theoretical species which, without intervention could live immortally within a closed system of its own creation.
+Theorizing what such a species would need to be like is futile, so instead we define it by what it definitely ist not -- large-bodied, permeable, containing a memory of past functionality, and so on.
 
 
 ## References {.page_break_before}

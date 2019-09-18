@@ -2,44 +2,24 @@
   "date": "September 18, 2019",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
+      "github": "RHagenson",
+      "name": "Ryan A. Hagenson",
+      "initials": "RAH",
+      "orcid": "0000-0001-9750-1925",
+      "twitter": "RAHagenson",
+      "email": "Ryan.Hagenson@gmail.com",
       "affiliations": [
-        "Department of Something, University of Whatever"
+        "Department of Conservation Genetics, Omaha's Henry Doorly Zoo and Aquarium"
       ],
-      "funders": "Grant XXXXXXXX",
       "affiliation_numbers": [
         1
-      ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
-      ],
-      "affiliation_numbers": [
-        1,
-        2
       ]
     }
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Something, University of Whatever",
+      "affiliation": "Department of Conservation Genetics, Omaha's Henry Doorly Zoo and Aquarium",
       "affiliation_number": 1
-    },
-    {
-      "affiliation": "Department of Whatever, University of Something",
-      "affiliation_number": 2
     }
   ],
   "ci_source": {
@@ -47,22 +27,17 @@
     "repo_slug": "RHagenson/biological-messaging",
     "repo_owner": "RHagenson",
     "repo_name": "biological-messaging",
-    "commit": "0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251",
-    "triggering_commit": "0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251",
-    "build_url": "https://travis-ci.com/RHagenson/biological-messaging/builds/128096845",
-    "job_url": "https://travis-ci.com/RHagenson/biological-messaging/jobs/236645304",
-    "manuscript_url": "https://RHagenson.github.io/biological-messaging/v/0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251/"
+    "commit": "7a82a1af4633be4c7df6222fb3398a0494a19322",
+    "triggering_commit": "7a82a1af4633be4c7df6222fb3398a0494a19322",
+    "build_url": "https://travis-ci.com/RHagenson/biological-messaging/builds/128262253",
+    "job_url": "https://travis-ci.com/RHagenson/biological-messaging/jobs/237007087",
+    "manuscript_url": "https://RHagenson.github.io/biological-messaging/v/7a82a1af4633be4c7df6222fb3398a0494a19322/"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 3,
-      "isbn": 1,
-      "pmcid": 1,
-      "pmid": 1,
       "url": 1,
-      "wikidata": 1,
-      "total": 8
+      "total": 1
     },
-    "word_count": 1363
+    "word_count": 429
   }
 }
