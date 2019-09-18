@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/RHagenson/biological-messaging/tree/gh-pages) branch hosts the contents of this directory at https://RHagenson.github.io/biological-messaging/.
-The permalink for this webpage version is https://RHagenson.github.io/biological-messaging/v/0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251/.
+The permalink for this webpage version is https://RHagenson.github.io/biological-messaging/v/7a82a1af4633be4c7df6222fb3398a0494a19322/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://RHagenson.github.io/biological-messaging/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251`](https://github.com/RHagenson/biological-messaging/commit/0dc5ea8c4530e8c1c0a56ac4ede48ac835c01251).
+[`7a82a1af4633be4c7df6222fb3398a0494a19322`](https://github.com/RHagenson/biological-messaging/commit/7a82a1af4633be4c7df6222fb3398a0494a19322).
